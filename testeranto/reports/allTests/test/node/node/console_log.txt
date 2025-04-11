@@ -1,0 +1,30 @@
+stdout data ehllo server
+[
+  '/Users/adam/.nvm/versions/node/v20.4.0/bin/node',
+  '/Users/adam/Code/testeranto-http/testeranto/bundles/node/allTests/test/node.mjs',
+  '{"scheduled":true,"name":"./test/node.ts","ports":["8889"],"fs":"/Users/adam/Code/testeranto-http/testeranto/bundles/node/allTests/test/node","browserWSEndpoint":"ws://127.0.0.1:3234/devtools/browser/fb8fe3a7-f3c2-4116-a0dc-86673a1b44ab"}',
+  '--trace-warnings'
+]
+stdout data server listening
+stdout data mark GET /get_status
+stderr data node:assert:125
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
++ 'some great status'
+- 'hello'
+    at IncomingMessage.<anonymous> (file:///Users/adam/Code/testeranto-http/testeranto/bundles/node/allTests/test/node.mjs:1143:20)
+    at IncomingMessage.emit (node:events:524:35)
+    at endReadableNT (node:internal/streams/readable:1378:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 'some great status',
+  expected: 'hello',
+  operator: 'deepStrictEqual'
+}
+
+Node.js v20.4.0

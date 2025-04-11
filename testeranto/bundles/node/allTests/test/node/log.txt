@@ -1,0 +1,8 @@
+
+Suite:,0,Testing the Node server with fetch!
+
+ test1
+
+ Given: AnEmptyState
+ When:,PostToStatus: hello
+ Then!!!:,TheStatusIs: hello

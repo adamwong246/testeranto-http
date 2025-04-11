@@ -1,0 +1,113 @@
+[
+  {
+    "filePath": "/Users/adam/Code/testeranto-http/test/test.ts",
+    "messages": [
+      {
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+        "message": "'assert' is defined but never used.",
+        "line": 1,
+        "column": 8,
+        "nodeType": null,
+        "messageId": "unusedVar",
+        "endLine": 1,
+        "endColumn": 14
+      },
+      {
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+        "message": "'t' is defined but never used.",
+        "line": 15,
+        "column": 35,
+        "nodeType": null,
+        "messageId": "unusedVar",
+        "endLine": 15,
+        "endColumn": 36
+      },
+      {
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+        "message": "'p' is defined but never used.",
+        "line": 15,
+        "column": 38,
+        "nodeType": null,
+        "messageId": "unusedVar",
+        "endLine": 15,
+        "endColumn": 39
+      },
+      {
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+        "message": "'resolve' is defined but never used.",
+        "line": 21,
+        "column": 25,
+        "nodeType": null,
+        "messageId": "unusedVar",
+        "endLine": 21,
+        "endColumn": 32
+      },
+      {
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+        "message": "'reject' is defined but never used.",
+        "line": 21,
+        "column": 34,
+        "nodeType": null,
+        "messageId": "unusedVar",
+        "endLine": 21,
+        "endColumn": 40
+      },
+      {
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+        "message": "'t' is defined but never used.",
+        "line": 100,
+        "column": 43,
+        "nodeType": null,
+        "messageId": "unusedVar",
+        "endLine": 100,
+        "endColumn": 44
+      },
+      {
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+        "message": "'resolve' is defined but never used.",
+        "line": 101,
+        "column": 25,
+        "nodeType": null,
+        "messageId": "unusedVar",
+        "endLine": 101,
+        "endColumn": 32
+      },
+      {
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+        "message": "'reject' is defined but never used.",
+        "line": 101,
+        "column": 34,
+        "nodeType": null,
+        "messageId": "unusedVar",
+        "endLine": 101,
+        "endColumn": 40
+      },
+      {
+        "ruleId": "@typescript-eslint/no-unused-vars",
+        "severity": 2,
+        "message": "'Check' is defined but never used.",
+        "line": 221,
+        "column": 3,
+        "nodeType": null,
+        "messageId": "unusedVar",
+        "endLine": 221,
+        "endColumn": 8
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 9,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  }
+]

@@ -1,0 +1,156 @@
+{
+  "name": "Testing the Node server with fetch!",
+  "givens": [
+    {
+      "key": "test0",
+      "name": "AnEmptyState",
+      "whens": [],
+      "thens": [
+        {
+          "name": "TheStatusIs: some great status",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": []
+    },
+    {
+      "key": "test1",
+      "name": "AnEmptyState",
+      "whens": [
+        {
+          "name": "PostToStatus: 1"
+        },
+        {
+          "name": "PostToStatus: 2"
+        },
+        {
+          "name": "PostToStatus: 3"
+        },
+        {
+          "name": "PostToStatus: 4"
+        },
+        {
+          "name": "PostToStatus: 5"
+        },
+        {
+          "name": "PostToStatus: 6"
+        },
+        {
+          "name": "PostToStatus: hello"
+        }
+      ],
+      "thens": [
+        {
+          "name": "TheStatusIs: hello",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": []
+    },
+    {
+      "key": "test2",
+      "name": "AnEmptyState",
+      "whens": [
+        {
+          "name": "PostToStatus: hello"
+        },
+        {
+          "name": "PostToStatus: aloha"
+        }
+      ],
+      "thens": [
+        {
+          "name": "TheStatusIs: aloha",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": []
+    },
+    {
+      "key": "test2.5",
+      "name": "AnEmptyState",
+      "whens": [
+        {
+          "name": "PostToStatus: hola"
+        }
+      ],
+      "thens": [
+        {
+          "name": "TheStatusIs: hola",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": []
+    },
+    {
+      "key": "test3",
+      "name": "AnEmptyState",
+      "whens": [],
+      "thens": [
+        {
+          "name": "TheNumberIs: 0",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": []
+    },
+    {
+      "key": "test5",
+      "name": "AnEmptyState",
+      "whens": [
+        {
+          "name": "PostToAdd: 1"
+        },
+        {
+          "name": "PostToAdd: 2"
+        }
+      ],
+      "thens": [
+        {
+          "name": "TheNumberIs: 3",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": []
+    },
+    {
+      "key": "test6",
+      "name": "AnEmptyState",
+      "whens": [
+        {
+          "name": "PostToStatus: aloha"
+        },
+        {
+          "name": "PostToAdd: 4"
+        },
+        {
+          "name": "PostToStatus: hello"
+        },
+        {
+          "name": "PostToAdd: 3"
+        }
+      ],
+      "thens": [
+        {
+          "name": "TheStatusIs: hello",
+          "error": false
+        },
+        {
+          "name": "TheNumberIs: 789",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": []
+    }
+  ],
+  "checks": [],
+  "fails": 0,
+  "features": []
+}

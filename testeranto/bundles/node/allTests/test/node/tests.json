@@ -1,0 +1,21 @@
+{
+  "name": "Testing the Node server with fetch!",
+  "givens": [
+    {
+      "key": "test0",
+      "name": "AnEmptyState",
+      "whens": [],
+      "thens": [
+        {
+          "name": "TheStatusIs: some great status",
+          "error": false
+        }
+      ],
+      "error": null,
+      "features": []
+    }
+  ],
+  "checks": [],
+  "fails": 0,
+  "features": []
+}

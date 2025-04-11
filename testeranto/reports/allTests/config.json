@@ -1,0 +1,24 @@
+{
+  "tests": [
+    [
+      "./test/node.ts",
+      "node",
+      {
+        "ports": 1
+      },
+      []
+    ]
+  ],
+  "clearScreen": false,
+  "debugger": false,
+  "externals": [],
+  "importPlugins": [],
+  "minify": false,
+  "nodePlugins": [],
+  "src": "",
+  "webPlugins": [],
+  "ports": [
+    "8889"
+  ],
+  "buildDir": "/Users/adam/Code/testeranto-http/testeranto/bundles/allTests"
+}

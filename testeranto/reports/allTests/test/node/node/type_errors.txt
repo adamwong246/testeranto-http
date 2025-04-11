@@ -1,0 +1,70 @@
+/Users/adam/Code/testeranto-http/src/node.ts (5,19): File '/Users/adam/Code/testeranto-http/test/test.ts' is not under 'rootDir' '/Users/adam/Code/testeranto-http/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Imported via "../test/test" from file '/Users/adam/Code/testeranto-http/src/node.ts'
+    Root file specified for compilation
+    Imported via "./test" from file '/Users/adam/Code/testeranto-http/test/node.ts'
+/Users/adam/Code/testeranto-http/test/node.ts (4,20): File '/Users/adam/Code/testeranto-http/test/server.ts' is not under 'rootDir' '/Users/adam/Code/testeranto-http/src'. 'rootDir' is expected to contain all source files.
+  The file is in the program because:
+    Root file specified for compilation
+    Imported via "./server" from file '/Users/adam/Code/testeranto-http/test/node.ts'
+/Users/adam/Code/testeranto-http/test/node.ts (9,3): Argument of type 'Server<typeof IncomingMessage, typeof ServerResponse>' is not assignable to parameter of type 'string'.
+/Users/adam/Code/testeranto-http/test/test.ts (220,12): Cannot find name 's'.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (20,3): Property 'store' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (21,3): Property 'testResourceConfiguration' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (23,3): Property 'failed' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (174,3): Property 'error' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (176,3): Property 'store' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (177,3): Property 'recommendedFsPath' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (180,3): Property 'key' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (181,3): Property 'failed' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (270,7): Type 'unknown' is not assignable to type 'Error'.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (303,12): 'e' is of type 'unknown'.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (316,9): Type 'unknown' is not assignable to type 'boolean'.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (329,3): Property 'error' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (431,3): Property 'key' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/abstractBase.ts (436,3): Property 'store' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/basebuilder.ts (33,3): Property 'assertThis' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/basebuilder.ts (44,3): Property 'puppetMaster' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/lib/basebuilder.ts (80,13): Argument of type '(fPath: string, value: string | Buffer | PassThrough) => void' is not assignable to parameter of type '(fPath: string, value: unknown) => void'.
+  Types of parameters 'value' and 'value' are incompatible.
+    Type 'unknown' is not assignable to type 'string | Buffer<ArrayBufferLike> | PassThrough'.
+/Users/adam/Code/testeranto/src/lib/basebuilder.ts (163,29): Property 'artifacts' does not exist on type '{ test: BaseSuite<I, O>; toObj: () => { name: string; givens: { key: string; name: string; whens: { name: string; error: boolean; }[]; thens: { name: string; error: boolean; }[]; error: (string | Error | undefined)[] | null; failed: boolean; features: string[]; }[]; checks: any[]; fails: number; failed: boolean; fea...'.
+/Users/adam/Code/testeranto/src/lib/classBuilder.ts (40,60): Property 'suites' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto/src/lib/classBuilder.ts (55,60): Property 'givens' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto/src/lib/classBuilder.ts (64,32): Property 'givens' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto/src/lib/classBuilder.ts (73,59): Property 'whens' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto/src/lib/classBuilder.ts (74,7): No overload matches this call.
+  Overload 1 of 3, '(callbackfn: (previousValue: [string, unknown], currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => [string, unknown], initialValue: [string, unknown]): [string, unknown]', gave the following error.
+    Argument of type '(a: {}, [key, whEn]: [string, (x: any) => any]) => {}' is not assignable to parameter of type '(previousValue: [string, unknown], currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => [string, unknown]'.
+      Types of parameters '__1' and 'currentValue' are incompatible.
+        Type '[string, unknown]' is not assignable to type '[string, (x: any) => any]'.
+          Type at position 1 in source is not compatible with type at position 1 in target.
+            Type 'unknown' is not assignable to type '(x: any) => any'.
+  Overload 2 of 3, '(callbackfn: (previousValue: {}, currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => {}, initialValue: {}): {}', gave the following error.
+    Argument of type '(a: {}, [key, whEn]: [string, (x: any) => any]) => {}' is not assignable to parameter of type '(previousValue: {}, currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => {}'.
+      Types of parameters '__1' and 'currentValue' are incompatible.
+        Type '[string, unknown]' is not assignable to type '[string, (x: any) => any]'.
+          Type at position 1 in source is not compatible with type at position 1 in target.
+            Type 'unknown' is not assignable to type '(x: any) => any'.
+/Users/adam/Code/testeranto/src/lib/classBuilder.ts (86,59): Property 'thens' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto/src/lib/classBuilder.ts (87,7): No overload matches this call.
+  Overload 1 of 3, '(callbackfn: (previousValue: [string, unknown], currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => [string, unknown], initialValue: [string, unknown]): [string, unknown]', gave the following error.
+    Argument of type '(a: {}, [key, thEn]: [string, (s: I["iselection"]) => I["isubject"]]) => {}' is not assignable to parameter of type '(previousValue: [string, unknown], currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => [string, unknown]'.
+      Types of parameters '__1' and 'currentValue' are incompatible.
+        Type '[string, unknown]' is not assignable to type '[string, (s: I["iselection"]) => I["isubject"]]'.
+          Type at position 1 in source is not compatible with type at position 1 in target.
+            Type 'unknown' is not assignable to type '(s: I["iselection"]) => I["isubject"]'.
+  Overload 2 of 3, '(callbackfn: (previousValue: {}, currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => {}, initialValue: {}): {}', gave the following error.
+    Argument of type '(a: {}, [key, thEn]: [string, (s: I["iselection"]) => I["isubject"]]) => {}' is not assignable to parameter of type '(previousValue: {}, currentValue: [string, unknown], currentIndex: number, array: [string, unknown][]) => {}'.
+      Types of parameters '__1' and 'currentValue' are incompatible.
+        Type '[string, unknown]' is not assignable to type '[string, (s: I["iselection"]) => I["isubject"]]'.
+          Type at position 1 in source is not compatible with type at position 1 in target.
+            Type 'unknown' is not assignable to type '(s: I["iselection"]) => I["isubject"]'.
+/Users/adam/Code/testeranto/src/lib/classBuilder.ts (110,60): Property 'checks' does not exist on type 'ITestImplementation<I, O, M>'.
+/Users/adam/Code/testeranto/src/lib/classBuilder.ts (129,7): Argument of type '[string, unknown]' is not assignable to parameter of type 'Record<string, IWhenKlasser<I>>'.
+  Index signature for type 'string' is missing in type '[string, unknown]'.
+/Users/adam/Code/testeranto/src/lib/index.ts (32,3): Type '(store: IT["istore"], thenCb: (s: IT["iselection"]) => Promise<IT["isubject"]>) => Promise<unknown>' is not assignable to type '(store: unknown, thenCB: unknown, testResource: ITTestResourceConfiguration, pm: IPM) => Promise<unknown>'.
+  Types of parameters 'thenCb' and 'thenCB' are incompatible.
+    Type 'unknown' is not assignable to type '(s: unknown) => Promise<unknown>'.
+/Users/adam/Code/testeranto/src/PM/index.ts (8,3): Property 'testResourceConfiguration' has no initializer and is not definitely assigned in the constructor.
+/Users/adam/Code/testeranto/src/PM/node.ts (16,3): Property 'client' has no initializer and is not definitely assigned in the constructor.

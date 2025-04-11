@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "git@github.com:adamwong246/testeranto-http.git",
   "author": "adam wong <adamwong246@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "testeranto": "^0.125.3",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "t-build": "tsx node_modules/testeranto/dist/prebuild/build.mjs",
+    "t-run": "tsx node_modules/testeranto/dist/prebuild/run.mjs",
+    "t-init": "tsx node_modules/testeranto/dist/prebuild/init-docs.mjs"
+  }
 }

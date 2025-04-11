@@ -1,0 +1,8 @@
+{
+  "./test/node.ts": {
+    "runTimeError": 1,
+    "typeErrors": 34,
+    "staticErrors": 1,
+    "prompt": "aider --model deepseek/deepseek-chat --load testeranto/allTests/reports/node/./test/node/prompt.txt"
+  }
+}
