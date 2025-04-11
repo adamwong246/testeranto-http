@@ -1,0 +1,8 @@
+{
+  "name": "testeranto-http",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:adamwong246/testeranto-http.git",
+  "author": "adam wong <adamwong246@gmail.com>",
+  "license": "MIT"
+}
