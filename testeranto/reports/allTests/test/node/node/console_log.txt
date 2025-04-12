@@ -2,7 +2,7 @@ stdout data ehllo server
 [
   '/Users/adam/.nvm/versions/node/v20.4.0/bin/node',
   '/Users/adam/Code/testeranto-http/testeranto/bundles/node/allTests/test/node.mjs',
-  '{"scheduled":true,"name":"./test/node.ts","ports":["8889"],"fs":"/Users/adam/Code/testeranto-http/testeranto/bundles/node/allTests/test/node","browserWSEndpoint":"ws://127.0.0.1:3234/devtools/browser/fb8fe3a7-f3c2-4116-a0dc-86673a1b44ab"}',
+  '{"scheduled":true,"name":"./test/node.ts","ports":["8889"],"fs":"/Users/adam/Code/testeranto-http/testeranto/bundles/node/allTests/test/node","browserWSEndpoint":"ws://127.0.0.1:3234/devtools/browser/042bedc4-9df6-4f52-99af-a52de9f07f68"}',
   '--trace-warnings'
 ]
 stdout data server listening
